@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-5 border border-1 mt-5 p-5 main mx-auto rounded-3 border-black shadow-lg">
+                <form action="" onsubmit="signIn(event)">
+                    <h1 class="text-center color-pink ">Login</h1>
+                    <p>Enter Email</p>
+                    <input type="email" placeholder="Enter your email adress" id="mail"
+                        class="pt-2 pb-2 ps-sm-5 pe-sm-5 border rounded-5">
+                    <p>Enter Password</p>
+                    <input type="password" placeholder="Select password" id="password"
+                        class="pt-2 pb-2 ps-sm-5 pe-sm-5 border rounded-5"> <br>
+                    <input type="checkbox" class=" mt-4"><b class="text-white ms-1">Remember me </b> <br>
+                    <button class=" p-3 border-0 rounded-5 mt-3 ">Login</button>
+                    <p class="text-center ">Dont have account? <a href="/signup/signup.html">signup</a></p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="sigin.js" type="module"></script>
+</body>
+
+</html>

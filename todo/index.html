@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ToDo App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="todo.css">
+</head>
+
+<body >
+  <div class="container">
+    <div class="row flex-row-reverse mt-5 ms-md-5">
+      <div class="col-md-6 text-sm-cente ">
+        <div class=" main col-sm-12 d-flex justify-content-between  border-0 rounded-top-4">
+          <h1 class="mt-2 ms-2 hding">ToDo App</h1>
+          <img src="/img/img1-removebg-preview.png" alt="" width="70px" height="70px">
+        </div>
+
+        <div class="col-sm-12 main2 mt-2  ">
+          <div class="row p-3 ">
+            <div class="col-xl-7">
+              <input type="text" placeholder="Type here.............." class=" border rounded-4 border-white pt-2 pb-2 ps-lg-5 pe-lg-5"
+                id="inpt">
+            </div>
+            <div class="col-xl-4 mt-3 mt-xl-0">
+              <button onclick="addList()" class="p-2">Add</button>
+              <button class="p-2" onclick="deltAll()">Delete All</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12  mt-2  show">
+          <ol id="list1">
+            
+          </ol>
+        </div>
+      </div>
+      
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <script src="app.js" type="module"></script>
+
+</body>
+
+</html>

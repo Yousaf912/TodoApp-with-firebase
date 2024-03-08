@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(/img/geometric-gradient-futuristic-background_23-2149116406.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    background: transparent;
+    background-color:rgba(76, 71, 166, 0.5);
+    max-width: 400px;
+}
+h1,p{
+    color: rgb(236, 14, 88);
+}
+p{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+input{
+    border: none;
+    outline: none;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(227, 12, 84);
+}
+button:hover{
+    background-color: rgb(206, 56, 81);
+}
+a{
+    text-decoration: none;
+}

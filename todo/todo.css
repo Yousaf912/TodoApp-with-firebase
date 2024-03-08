@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hding,#list1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body{
+    background: url(/img/todo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.main{
+    background: rgba(123, 38, 209, 0.956);
+}
+.main2{
+    background: rgba(115, 17, 214, 0.394);
+}
+input{
+    background: none;
+    outline: none;
+}
+button{
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: rgba(123, 38, 209, 0.956);
+}
+
+button:hover{
+    background-color: rgba(138, 72, 204, 0.52) ;
+    border: 1px solid blueviolet;
+}
+
+.list-btn,.list-btn1 {
+    border: none;
+    outline: none;
+    border-radius: 5px; 
+    background-color: rgba(123, 38, 209, 0.956);
+}
+
+.list-btn:hover,.list-btn1:hover {
+    background-color: rgba(138, 72, 204, 0.52);
+    border: 1px solid blueviolet;
+}
+
+#list1 li{
+    background-color: rgba(138, 72, 204, 0.52);
+    overflow-wrap: break-word;
+    position: relative;
+    padding: 20px 65px 25px 5px;
+    border-radius: 20px;
+    margin-top: 3px;
+}
+.list-btn{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 3px;
+}
+.list-btn1{
+    background-color: white;
+    
+    position: absolute;
+    top: 35px;
+    right:10px;
+    padding: 1px 13px 1px 13px;
+    margin-top: 4px;
+}
+
+.show{
+    border: 1px solid blueviolet;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
